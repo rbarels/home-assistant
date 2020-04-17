@@ -13,6 +13,10 @@ Home-Assistant
 
 [TOC]
 
+## Changelog
+### 2020-04-17
+Gordijnen gaan automatisch open en dicht op beweging. 
+
 ## Home-assistant documentatie
 
 De standaard engelstalige documentatie over home-assistant staat hier. Deze pagina gaat specifiek over mijn huis en is bedoeld om vragen van gebruikers te beantwoorden, en zodat ik niet alles zelf hoef te onthouden.
@@ -67,6 +71,12 @@ Feature: Verlichting
     Then Zet de lamp aan
     And Reset de timer die de lamp uit zet
 ```
+
+## Automations
+### Woonkamer
+#### Gordijnen
+De gordijnen gaan open bij beweging in de woonkamer, na zonsopkomst. 
+De gordijnen gaan dicht bij beweging, 30 minuten na zonsondergang. 
 
 ## Appendix and FAQ
 
